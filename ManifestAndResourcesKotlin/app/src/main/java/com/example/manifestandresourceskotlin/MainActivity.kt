@@ -1,14 +1,11 @@
-package com.example.activitieskotlin
+package com.example.manifestandresourceskotlin
 
-import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
-    val tag :String ="MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(tag ,"onCreate()")
         setContentView(R.layout.activity_main)
     }
 }
